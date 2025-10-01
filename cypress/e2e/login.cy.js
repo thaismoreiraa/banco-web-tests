@@ -19,7 +19,7 @@ describe('login', () => {
   })
 
   it('Login com dados inválidos devem apresentar mensagem de erro', () => {
-    
+
     // Act
     cy.get('#username').click().type('julio.lima')
     cy.get('#senha').click().type('654321')
